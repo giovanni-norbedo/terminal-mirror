@@ -39,7 +39,7 @@ try:
         os.system("cd ./img && rm -rf frame*.png")
 
 
-except KeboardInterrupt:
+except KeyboardInterrupt:
     os.system("clear")
     os.system("cd ./img && rm -rf frame*.png")
     exit(0)
